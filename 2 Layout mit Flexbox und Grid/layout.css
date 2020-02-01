@@ -1,0 +1,105 @@
+body {
+	display: flex;
+	flex-flow: row wrap;
+}
+/* Mobile first - alle Dokument-Blöcke bekommen 100% Breite */
+
+
+header,
+nav,
+nav a,
+article,
+section,
+aside,
+footer {
+	border-radius: 0px 0.5em 0.5em;
+	border: 1px solid;
+	padding: 10px;
+	margin: 10px;
+	flex: 1 100%;
+}
+
+header {
+	background: #F1F3F4;
+	border-color: #d5d5d5;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+header * {
+	flex: 1 1 0%;
+}
+
+header img {
+	flex: 0 0 150px;
+	margin-right: 20px;
+}
+
+header nav {
+	flex: 1 1 100%;
+}
+
+nav,
+nav ul,
+nav li {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+}
+
+nav li {
+	list-style-type: none;
+	margin: 1.3em 0;
+	flex: 1 1 100%;
+}
+
+nav a {
+	display: inline-block;
+	width: 95%;
+	background: #fffbf0;
+	border: 1px solid #dfac20;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover,
+nav a:focus {
+	background-color: #dfac20;
+}
+
+section {
+	background: #F1F3F4;
+	border-color: slateblue;
+}
+
+article {
+	background: #ffede0;
+	border-color: #df6c20;
+}
+
+aside {
+	background: #ebf5d7;
+	border-color: #8db243;
+}
+
+footer {
+	background: #e4ebf2;
+	border-color: #8a9da8;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+footer * {
+	flex: 1 1 0%;
+	justify-content: space-between;
+}
+
+footer p {
+	text-align: right;
+}

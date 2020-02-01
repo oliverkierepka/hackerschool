@@ -1,0 +1,67 @@
+<!--
+    Es gibt von HTML verschiedene Versionen (HTML 1 bis HTML 4.01 und HTML5). 
+    Eine Zeit lang wurden Webseiten nicht nur in HTML, sondern auch in XHTML geschrieben. 
+    Die Dokumenttyp-Deklaration am Anfang eines jeden HTML-Dokumentes informiert über die Art des Dokumentes.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- <HEAD>-Tag der Seite-->
+
+  <title>Titel der Seite</title>
+
+  <!-- <META>-Viewport-Tag für responsive Websites -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Stylesheets werden mit <link>-Tags in die Seite eingebunden -->
+  <link rel="stylesheet" href="beispiel.css">
+
+  <!-- Oder als Inline-Stylesheets direkt im <style>-tag -->
+  <style>
+      h1 {
+          color: red;
+          font-size: 16px;
+          font-weight: bold;
+          font-family: Helvetica, Arial, sans-serif
+      }
+  </style>
+
+<!-- </head>: Schließen nicht vergessen! Dieser und einige weitere Tags müssen geschlossen werden. 
+
+    Selbst-Schließende Tags sind z.B.: 
+
+        <br /> – single line break in a paragraph.
+        <hr /> – change in type of content.
+        <img /> – image.
+        <input /> – input field .
+        <link /> – include an external style sheet.
+        <meta /> – metadata about the page.
+        <source /> – include media for video or audio.
+-->
+
+    <!-- Fallback für ältere Internet Explorer (Conditional Comment) -->
+    <!--[if lte IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <!-- <BODY> Sichtbarer Bereich der Seite -->
+    <header>
+        <!-- <HEADER> Hier wird der Kopf der Seite, oft die Navigation und ein Bild eingebunden -->
+    </header>
+
+    <main>
+        <!-- <MAIN> Hauptbereich der Seite-->
+    </main>
+
+    <footer>
+        <!-- <FOOTER> Hier wird der Footer der Seite eingebunden -->
+    </footer>
+
+    <!-- <SCRIPT>: In den meisten Fällen wird das Javascript erst am Ende des <Body>-Tags eingebunden 
+                    damit das Anzeigen (Rendern) der Seite im Browser nicht durch ein ladendes Javascript verzögert wird.    
+    -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
