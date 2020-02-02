@@ -10,6 +10,7 @@ body {
     background-color: yellow;
     font-family: 'Helvetica', Arial, sans-serif;
     font-size: .75rem; /* 12px (gewünschte Schriftgröße / 16px (1rem root font size) = 0.75rem */
+    
     /* Die Eigenschaft line-height gibt den Zeilenabstand an. 
         Diese Eigenschaft ist relativ zu der Schriftgröße.
         Hier also 150% von der Schriftgröße = 21,6px
