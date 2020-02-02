@@ -1,0 +1,85 @@
+<!--
+    Es gibt von HTML verschiedene Versionen (HTML 1 bis HTML 4.01 und HTML5).
+    Eine Zeit lang wurden Webseiten nicht nur in HTML, sondern auch in XHTML geschrieben.
+    Die Dokumenttyp-Deklaration am Anfang eines jeden HTML-Dokumentes informiert über die Art des Dokumentes.
+-->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+  <!-- <HEAD>-Tag der Seite-->
+
+    <title>Origamitutorials zum Nachfalten!</title>
+
+    <!-- <META>-Viewport-Tag für responsive Websites -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Stylesheets werden mit <link>-Tags in die Seite eingebunden -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Oder als Inline-Stylesheets direkt im <style>-tag -->
+    <style> </style>
+
+
+  <!-- </head>: Schließen nicht vergessen! Dieser und einige weitere Tags müssen geschlossen werden.
+
+      Selbst-Schließende Tags sind z.B.:
+
+          <br /> – single line break in a paragraph.
+          <hr /> – change in type of content.
+          <img /> – image.
+          <input /> – input field .
+          <link /> – include an external style sheet.
+          <meta /> – metadata about the page.
+          <source /> – include media for video or audio.
+  -->
+
+      <!-- Fallback für ältere Internet Explorer (Conditional Comment) -->
+      <!--[if lte IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+      <!-- <BODY> Sichtbarer Bereich der Seite -->
+      <header>
+        <h1>Gustavs Origami-Tutorials</h1>
+          <!-- <HEADER> Hier wird der Kopf der Seite, oft die Navigation und ein Bild eingebunden -->
+      </header>
+
+      <main>
+        <h2>Die <span>besten</span> Anleitungen</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VgXwSdJNks8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <!-- <MAIN> Hauptbereich der Seite-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/g34baz69zXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9EfwOwWOF-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qXFbqEigSVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>Kategorien</h2>
+        <p><a href="index.html#einfach">Einfach</a></p>
+        <p><a href="index.html#mittel">Mittel</a></p>
+        <p><a href="index.html#schwer">Schwer</a></p>
+        <h2 id=einfach>Einfach</h2>
+        <p><span>Videos müssen noch in Schwierigkeitsstufen geordnet werden</span></p>
+        <h2 id=mittel>Mittel</h2>
+        <p><span>Videos müssen noch in Schwierigkeitsstufen geordnet werden</span></p>
+        <h2 id=schwer>Schwer</h2>
+        <p><span>Videos müssen noch in Schwierigkeitsstufen geordnet werden</span></p>
+        <p><span>Weitere Videos werden bald hinzugefügt!</span></p>
+
+      </main>
+
+      <footer>
+        <p>Videos von:</p>
+        <p>Jo Nakashima
+        <a href="https://www.youtube.com/channel/UC3ICcukYYeSn26KlCRnhOhA"> Youtube-Kanal</a></p>
+        <p>Easy Origami
+        <a href="https://www.youtube.com/channel/UCbEiPECXvNKtaa4dUBRUh1w"> Youtube-Kanal</a></p>
+        <p>Dankeschön außerdem an die <a href="https://www.hacker-school.de">HACKERSCHOOL</a> für den HTML-Kurs</p>
+
+          <!-- <FOOTER> Hier wird der Footer der Seite eingebunden -->
+      </footer>
+
+      <!-- <SCRIPT>: In den meisten Fällen wird das Javascript erst am Ende des <Body>-Tags eingebunden
+                      damit das Anzeigen (Rendern) der Seite im Browser nicht durch ein ladendes Javascript verzögert wird.
+      -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

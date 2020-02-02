@@ -1,0 +1,127 @@
+html{
+    /* Alle Größen orientieren sich am im html-Element angegebenen Ausgangswert.
+        100% entspricht hier der Standard-Einstellung des jeweiligen Browsers.
+        Normalerweise sind das 16px.
+    */
+    font-size:100%;
+}
+
+body {
+    background-image: url("Wasser.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: .75rem; /* 12px (gewünschte Schriftgröße / 16px (1rem root font size) = 0.75rem */
+    /* Die Eigenschaft line-height gibt den Zeilenabstand an.
+        Diese Eigenschaft ist relativ zu der Schriftgröße.
+        Hier also 150% von der Schriftgröße = 21,6px
+        https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+    */
+    line-height: 1.5;
+
+    /* Wichtig für das Offcanvas menu */
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+header {
+  background-color: blue;
+}
+h1 {
+    font-family: 'Merriweather', 'Times' serif;
+    font-size: 1rem; /*   2 * 16px ≙ 32px   */
+    margin-bottom: 0px;
+    margin-top: 10px
+}
+
+p{
+  margin-bottom: 0px
+}
+
+button {
+    background-color: goldenrod;
+    color: #fff;
+    font-size: 1rem
+}
+
+button:hover {
+    background-color: rgba(17, 127, 43, 0.7)
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+}
+body:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 10rem;
+    font-weight: bold;
+
+}
+
+/* Über Media-Queries kannst du CSS-Eigenschaften für bestimmte Auflösungen festlegen */
+@media screen and (max-width: 800px){
+    body {
+        background-color: green;
+    }
+    h1{font-size:40px;}
+    h3{font-size:24px;}
+}
+
+/* stile aus <style>-tag */
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif
+    text-align: center;
+}
+
+h2, h3, h4, h5 {
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 3rem,
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #4CAF50;
+}
+.news_dropdown {
+  display: none;
+}
+
+.news_dropdown a {
+  display: block;
+}
+
+.news:hover .news_dropdown {
+  display: block;
+  position: absolute;
+  background-color: darkgrey;
+}

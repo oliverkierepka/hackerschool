@@ -1,0 +1,62 @@
+<!--
+    Es gibt von HTML verschiedene Versionen (HTML 1 bis HTML 4.01 und HTML5).
+    Eine Zeit lang wurden Webseiten nicht nur in HTML, sondern auch in XHTML geschrieben.
+    Die Dokumenttyp-Deklaration am Anfang eines jeden HTML-Dokumentes informiert über die Art des Dokumentes.
+-->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<!-- <HEAD>-Tag der Seite-->
+
+  <title>Sportschau-Handball</title>
+
+  <!-- <META>-Viewport-Tag für responsive Websites -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Stylesheets werden mit <link>-Tags in die Seite eingebunden -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- <BODY> Sichtbarer Bereich der Seite -->
+    <header>
+        <h1>Sportschau</h1>
+        <ul>
+          <li>
+            <a class="active" href="index.html">Home</a>
+          </li>
+          <li class="news">
+            <a href="#news">News</a>
+            <div class="news_dropdown">
+                <a href="handball.html">Handball</a>
+                <a href="ski.html">Ski</a>
+                <a href="tennis.html">Tennis</a>
+            </div>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+        <!-- <HEADER> Hier wird der Kopf der Seite, oft die Navigation und ein Bild eingebunden -->
+    </header>
+    <main>
+        <h2>Handball</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RtFuCFaYT7I?start=7" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tAFaG7cJpCE?start=7" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- <MAIN> Hauptbereich der Seite-->
+    </main>
+
+    <footer>
+        <!-- <FOOTER> Hier wird der Footer der Seite eingebunden -->
+    </footer>
+
+    <!-- <SCRIPT>: In den meisten Fällen wird das Javascript erst am Ende des <Body>-Tags eingebunden
+                    damit das Anzeigen (Rendern) der Seite im Browser nicht durch ein ladendes Javascript verzögert wird.
+    -->
+</body>
+</html>

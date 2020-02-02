@@ -1,0 +1,88 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+  </head>
+
+    <style media="screen">
+
+    body{
+      padding: 20px;
+      font-family: sans-serif;
+    }
+
+    form{
+      padding: 5px;
+    }
+
+    p{
+      color: #ff0000;
+    }
+
+    .alk{
+      font-size: <%= total %>px;
+    }
+
+    </style>
+
+  <body class="container">
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <div class="jumbotron">
+
+          <h2>Variable</h2>
+
+          <p><%= tagline  %></p>
+
+          <h2>Bar</h2>
+
+          <form action="/action" method="post">
+
+            Getränk:<br><input type="text" name="getraenk" value="">
+
+            <br>
+
+            Trunkenheits level:<br><input type="text" name="level" value="0">
+
+            <input type="submit" value="OK">
+
+          </form>
+
+          <form action="/cls" method="post">
+
+            <input type="submit" value="Claer">
+
+          </form>
+
+        <!--  <button type="submit" form="form1" value="Submit">Submit</button>v-->
+
+          <ul>
+              <% drinks.forEach(function(drink) { %>
+                  <li><%= drink.name %> - <%= drink.drunkness %></li>
+              <% }); %>
+          </ul>
+
+          <h2>Du hast soviel getrunken:</h2>
+
+          <p class="alk"><%= total %></p>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+  </body>
+
+</html>
