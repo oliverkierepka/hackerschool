@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    background-image: url("./images/pattern.gif");
+    color: #ffffff;
+}
+h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.container__wrapper {
+    display: flex;
+    flex: 1 1 auto;
+
+}
+div.container__wrapper div {
+    background: white;
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
+}

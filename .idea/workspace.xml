@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8356824-8b73-41fd-894a-c95bcfa8e556" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 4/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 5/images/pattern.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 5/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/1 Grundlagen HTML CSS/html-grundstruktur.html" beforeDir="false" afterPath="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/1 Grundlagen HTML CSS/html-grundstruktur.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZkOyi0ulc4ihC6xMF9y8LgSiIU" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 5" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 5" />
+      <recent name="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 4" />
+      <recent name="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps" />
+      <recent name="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 0" />
+      <recent name="$PROJECT_DIR$/Einstieg in die Web-Programmierung mit HTML &amp; CSS/Steps/Step 1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8356824-8b73-41fd-894a-c95bcfa8e556" name="Default Changelist" comment="" />
+      <created>1585379881391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585379881391</updated>
+      <workItem from="1585379882738" duration="4575000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
